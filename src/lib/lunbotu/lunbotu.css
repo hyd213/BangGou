@@ -1,0 +1,40 @@
+.lunbotuul li{
+	position: absolute;
+	display: block;
+	float: left;
+	top: 0;
+	overflow: hidden;
+}
+.lunbotuul p span{
+	display: inline-block;
+	border:1px solid #000;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: #000;
+	color: #fff; 
+	font-size: 20px;
+	font-weight: both;
+
+}
+.lunbotuul p{
+	position: absolute;
+	left:0;
+	width: 100%;
+	top:90%;
+	text-align: center;
+}
+.lunbotuul p .gaoliang{
+	background-color:red;
+	border:1px solid red;
+}
+.lunbotuul input{
+	width: 30px;
+}
+.lunbotuul img{
+	height: 100%;
+
+}
+

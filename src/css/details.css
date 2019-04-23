@@ -1,0 +1,202 @@
+#main {
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+}
+
+#main a {
+  color: #666;
+}
+
+#main .del {
+  text-decoration: line-through;
+}
+
+#main .hidden {
+  display: none;
+}
+
+#main #price {
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
+
+#main .container {
+  overflow: hidden;
+}
+
+#main #mulu {
+  color: #333;
+  height: 30px;
+  line-height: 30px;
+}
+
+#main #imgbox {
+  width: 480px;
+  height: 575px;
+  float: left;
+  position: relative;
+}
+
+#main #imgbox #op {
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  opacity: 0.7;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  display: none;
+  z-index: 1000;
+}
+
+#main #imgbox #fangdajing {
+  overflow: hidden;
+  position: absolute;
+  left: 500px;
+  width: 365px;
+  height: 365px;
+  display: none;
+  top: 0;
+}
+
+#main #imgbox #fangdajing img {
+  width: 730px;
+  height: 1095px;
+  top: -182px;
+  position: absolute;
+}
+
+#main #imgbox #bigimg {
+  border: 1px solid #ccc;
+  position: relative;
+  width: 480px;
+  height: 480px;
+}
+
+#main #imgbox #bigimg li {
+  display: none;
+  width: 480px;
+  height: 480px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+#main #imgbox #bigimg li img {
+  width: 480px;
+  height: 680px;
+  position: absolute;
+  top: -100px;
+}
+
+#main #imgbox #bigimg #block {
+  display: block;
+}
+
+#main #imgbox #smallimg {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 96px;
+  padding: 0 10px;
+}
+
+#main #imgbox #smallimg li {
+  display: block;
+  float: left;
+  width: 70px;
+  height: 84px;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+#main #imgbox #smallimg li img {
+  width: 94px;
+  height: 120px;
+  position: absolute;
+  top: -20px;
+  left: -10px;
+}
+
+#main #shopbox {
+  color: #333;
+  width: 615px;
+  height: 575px;
+  float: right;
+}
+
+#main #shopbox p {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  line-height: 20px;
+  height: 20px;
+}
+
+#main #shopbox #_box {
+  padding-left: 20px;
+}
+
+#main #shopbox #color {
+  height: 30px;
+  overflow: hidden;
+}
+
+#main #shopbox #color li {
+  margin-right: 5px;
+  border: 1px solid #ccc;
+}
+
+#main #shopbox #color .gaoliang {
+  border: 1px solid red;
+}
+
+#main #shopbox #size {
+  height: 30px;
+  overflow: hidden;
+}
+
+#main #shopbox #size li {
+  display: block;
+  float: left;
+  line-height: 30px;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+}
+
+#main #shopbox #size .gaoliang {
+  border: 1px solid red;
+}
+
+#main #shopbox #jian, #main #shopbox #jia {
+  width: 25px;
+  height: 25px;
+}
+
+#main #shopbox #num {
+  height: 25px;
+  width: 45px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#main #shopbox #join {
+  width: 200px;
+  height: 34px;
+  ling-height: 34px;
+  text-align: center;
+  color: #fff;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 3px;
+}
+
+#details p {
+  line-height: 70px;
+  height: 70px;
+}

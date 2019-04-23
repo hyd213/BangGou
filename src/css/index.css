@@ -1,0 +1,538 @@
+html, body {
+  width: 100%;
+}
+
+body {
+  background: #F7F7F7;
+}
+
+#duanma {
+  background: #fff;
+}
+
+#duanma img {
+  display: block;
+}
+
+#banner {
+  background: #fff;
+  width: 100%;
+  min-width: 1200px;
+  overflow: hidden;
+}
+
+#banner #banner_top {
+  overflow: hidden;
+}
+
+#banner #banner_top li {
+  display: block;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  width: 1200px;
+}
+
+#banner #banner_bottom .container {
+  min-width: 1200px;
+  overflow: hidden;
+}
+
+#banner #banner_bottom .container ul {
+  width: 100%;
+  padding: 20px 0;
+}
+
+#banner #banner_bottom .container ul li {
+  display: block;
+  float: left;
+  height: 110px;
+}
+
+#banner #banner_bottom .container ul li span {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+#banner #banner_bottom .container ul li .gaoliang {
+  border: 2px solid #D22223;
+}
+
+#banner #banner_bottom .container ul li:first-child {
+  border-left: 0;
+}
+
+#main #hot ul {
+  height: 240px;
+  overflow: hidden;
+}
+
+#main #hot ul li {
+  float: left;
+  width: 390px;
+  height: 240px;
+  margin-left: 15px;
+}
+
+#main #hot ul li:first-child {
+  margin-left: 0;
+}
+
+#main #jingxuan .top {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#main #jingxuan .top li {
+  float: left;
+  width: 295px;
+  height: 250px;
+  margin-left: 6px;
+}
+
+#main #jingxuan .top li:first-child {
+  margin-left: 0;
+}
+
+#main #jingxuan .bottom {
+  margin-top: 10px;
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#main #jingxuan .bottom li {
+  float: left;
+  width: 295px;
+  height: 250px;
+  margin-left: 6px;
+}
+
+#main #jingxuan .bottom li:first-child {
+  margin-left: 0;
+}
+
+#main #todayHot {
+  background: #fff;
+}
+
+#main #todayHot .top {
+  height: 320px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#main #todayHot .top li {
+  float: left;
+  width: 230px;
+  height: 320px;
+  margin-left: 12px;
+}
+
+#main #todayHot .top li:first-child {
+  margin-left: 0;
+}
+
+#main #todayHot .bottom {
+  margin-top: 10px;
+  height: 320px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#main #todayHot .bottom li {
+  float: left;
+  width: 230px;
+  height: 320px;
+  margin-left: 12px;
+}
+
+#main #todayHot .bottom li a {
+  height: 230px;
+  display: block;
+}
+
+#main #todayHot .bottom li a span {
+  background-color: #FDEDEC;
+  color: #F8584F;
+}
+
+#main #todayHot .bottom li:first-child {
+  margin-left: 0;
+}
+
+#main #boy .top {
+  overflow: hidden;
+}
+
+#main #boy .man {
+  display: block;
+  float: left;
+}
+
+#main #boy .clothes {
+  float: left;
+  margin-top: 50px;
+}
+
+#main #boy .clothes li {
+  float: left;
+}
+
+#main #boy .clothes li a {
+  color: #999999;
+  display: block;
+  font-size: 12px;
+  padding: 0 25px;
+  border-left: 1px solid #999999;
+  line-height: 12px;
+  height: 12px;
+  font-weight: both;
+}
+
+#main #boy .clothes li:first-child a {
+  border-left: 0;
+}
+
+#main #boy .more {
+  color: red;
+  margin-top: 50px;
+  float: right;
+  might-right: 40px;
+  font-weight: both;
+}
+
+#main #boy .bottom .b_top {
+  overflow: hidden;
+}
+
+#main #boy .bottom .b_top li {
+  float: left;
+  width: 230px;
+  height: 320px;
+  margin-left: 12px;
+}
+
+#main #boy .bottom .b_top li a {
+  height: 230px;
+  display: block;
+}
+
+#main #boy .bottom .b_top li a span {
+  background-color: #FDEDEC;
+  color: #F8584F;
+}
+
+#main #boy .bottom .b_top .big {
+  margin-left: 0;
+  width: 472px;
+}
+
+#main #boy .bottom .b_bottom {
+  overflow: hidden;
+  margin-top: 12px;
+}
+
+#main #boy .bottom .b_bottom li {
+  float: left;
+  width: 230px;
+  height: 320px;
+  margin-left: 12px;
+}
+
+#main #boy .bottom .b_bottom li a {
+  height: 230px;
+  display: block;
+}
+
+#main #boy .bottom .b_bottom li a span {
+  background-color: #FDEDEC;
+  color: #F8584F;
+}
+
+#main #boy .bottom .b_bottom .fp {
+  margin-left: 0;
+}
+
+#main #girl .top {
+  overflow: hidden;
+}
+
+#main #girl .mowon {
+  display: block;
+  float: left;
+}
+
+#main #girl .clothes {
+  float: left;
+  margin-top: 50px;
+}
+
+#main #girl .clothes li {
+  float: left;
+}
+
+#main #girl .clothes li a {
+  color: #999999;
+  display: block;
+  font-size: 12px;
+  padding: 0 25px;
+  border-left: 1px solid #999999;
+  line-height: 12px;
+  height: 12px;
+  font-weight: both;
+}
+
+#main #girl .clothes li:first-child a {
+  border-left: 0;
+}
+
+#main #girl .more {
+  color: red;
+  margin-top: 50px;
+  float: right;
+  might-right: 40px;
+  font-weight: both;
+}
+
+#main #girl .bottom .b_top {
+  overflow: hidden;
+}
+
+#main #girl .bottom .b_top li {
+  float: left;
+  width: 230px;
+  height: 320px;
+  margin-left: 12px;
+}
+
+#main #girl .bottom .b_top li a {
+  height: 230px;
+  display: block;
+}
+
+#main #girl .bottom .b_top li a span {
+  background-color: #FDEDEC;
+  color: #F8584F;
+}
+
+#main #girl .bottom .b_top .big {
+  margin-left: 0;
+  width: 472px;
+}
+
+#main #girl .bottom .b_bottom {
+  overflow: hidden;
+  margin-top: 12px;
+}
+
+#main #girl .bottom .b_bottom li {
+  float: left;
+  width: 230px;
+  height: 320px;
+  margin-left: 12px;
+}
+
+#main #girl .bottom .b_bottom li a {
+  height: 230px;
+  display: block;
+}
+
+#main #girl .bottom .b_bottom li a span {
+  background-color: #FDEDEC;
+  color: #F8584F;
+}
+
+#main #girl .bottom .b_bottom .fp {
+  margin-left: 0;
+}
+
+#main #child .top {
+  overflow: hidden;
+}
+
+#main #child .man {
+  display: block;
+  float: left;
+}
+
+#main #child .clothes {
+  float: left;
+  margin-top: 50px;
+}
+
+#main #child .clothes li {
+  float: left;
+}
+
+#main #child .clothes li a {
+  color: #999999;
+  display: block;
+  font-size: 12px;
+  padding: 0 25px;
+  border-left: 1px solid #999999;
+  line-height: 12px;
+  height: 12px;
+  font-weight: both;
+}
+
+#main #child .clothes li:first-child a {
+  border-left: 0;
+}
+
+#main #child .more {
+  color: red;
+  margin-top: 50px;
+  float: right;
+  margin-right: 40px;
+  font-weight: both;
+}
+
+#main #child .bottom .b_top {
+  overflow: hidden;
+}
+
+#main #child .bottom .b_top li {
+  float: left;
+  width: 230px;
+  height: 320px;
+  margin-left: 12px;
+}
+
+#main #child .bottom .b_top li a {
+  height: 230px;
+  display: block;
+}
+
+#main #child .bottom .b_top li a span {
+  background-color: #FDEDEC;
+  color: #F8584F;
+}
+
+#main #child .bottom .b_top .big {
+  margin-left: 0;
+  width: 472px;
+}
+
+#main #child .bottom .b_bottom {
+  overflow: hidden;
+  margin-top: 12px;
+}
+
+#main #child .bottom .b_bottom li {
+  float: left;
+  width: 230px;
+  height: 320px;
+  margin-left: 12px;
+}
+
+#main #child .bottom .b_bottom li a {
+  height: 230px;
+  display: block;
+}
+
+#main #child .bottom .b_bottom li a span {
+  background-color: #FDEDEC;
+  color: #F8584F;
+}
+
+#main #child .bottom .b_bottom .fp {
+  margin-left: 0;
+}
+
+#main #shoe .top {
+  overflow: hidden;
+}
+
+#main #shoe .mowon {
+  display: block;
+  float: left;
+}
+
+#main #shoe .clothes {
+  float: left;
+  margin-top: 50px;
+}
+
+#main #shoe .clothes li {
+  float: left;
+}
+
+#main #shoe .clothes li a {
+  color: #999999;
+  display: block;
+  font-size: 12px;
+  padding: 0 25px;
+  border-left: 1px solid #999999;
+  line-height: 12px;
+  height: 12px;
+  font-weight: both;
+}
+
+#main #shoe .clothes li:first-child a {
+  border-left: 0;
+}
+
+#main #shoe .more {
+  color: red;
+  margin-top: 50px;
+  float: right;
+  might-right: 40px;
+  font-weight: both;
+}
+
+#main #shoe .bottom .b_top {
+  overflow: hidden;
+}
+
+#main #shoe .bottom .b_top li {
+  float: left;
+  width: 230px;
+  height: 320px;
+  margin-left: 12px;
+}
+
+#main #shoe .bottom .b_top li a {
+  height: 230px;
+  display: block;
+}
+
+#main #shoe .bottom .b_top li a span {
+  background-color: #FDEDEC;
+  color: #F8584F;
+}
+
+#main #shoe .bottom .b_top .big {
+  margin-left: 0;
+  width: 472px;
+}
+
+#main #shoe .bottom .b_bottom {
+  overflow: hidden;
+  margin-top: 12px;
+}
+
+#main #shoe .bottom .b_bottom li {
+  float: left;
+  width: 230px;
+  height: 320px;
+  margin-left: 12px;
+}
+
+#main #shoe .bottom .b_bottom li a {
+  height: 230px;
+  display: block;
+}
+
+#main #shoe .bottom .b_bottom li a span {
+  background-color: #FDEDEC;
+  color: #F8584F;
+}
+
+#main #shoe .bottom .b_bottom .fp {
+  margin-left: 0;
+}

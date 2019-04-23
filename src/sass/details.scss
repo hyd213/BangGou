@@ -1,0 +1,192 @@
+#main{
+	a{
+		color:#666;
+	}
+
+	.del{
+		text-decoration:line-through;
+	}
+	.hidden{
+		display:none;
+	}
+	
+	#price{
+		font-size:30px;
+		color:red;
+		font-weight:bold;
+	}
+	.container{
+		overflow:hidden;
+	}
+	border-top:1px solid #ccc;
+	padding-top:30px;
+	#mulu{
+			color:#333;
+			height:30px;
+			line-height:30px;
+		}
+
+	#imgbox{
+		width:480px;
+		height:575px;
+		float:left;
+		position:relative;
+		#op{
+			width: 240px;
+			height: 240px;
+			position: absolute;
+			opacity: 0.7;
+			background-color: #fff;
+			left: 0;
+			top: 0;
+			display: none;
+			z-index:1000;
+		}
+		#fangdajing{
+			overflow:hidden;
+			position:absolute;
+			left:500px;
+			width:365px;
+			height:365px;
+			display:none;
+			top:0;
+			img{
+				width:730px;
+				height:1095px;
+				top:-182px;
+				position:absolute;
+			}
+		}
+		#bigimg{
+			
+			border:1px solid #ccc;
+			position: relative;
+
+			width:480px;
+			height: 480px;
+			li{
+				display:none;
+				width:480px;
+				height: 480px;
+				position: absolute;
+				top:0;
+				left:0;
+				overflow:hidden;
+				img{
+					
+					width:480px;
+					height: 680px;
+					position: absolute;
+ 					top:-100px;
+				}
+			}
+			#block{
+				display:block;
+			}
+			
+		}
+		#smallimg{
+			border:1px solid #ccc;
+			width:100%;
+			height:96px;
+			padding: 0 10px;
+			li{
+				display:block;
+				float:left;
+				width:70px;
+				height:84px;
+				margin:10px;
+				position:relative;
+				overflow:hidden;
+				img{
+					
+				 	width: 94px;
+				  	height: 120px;
+				  	position: absolute;
+				  	top:-20px;
+				  	left:-10px;
+ 					
+				}
+				
+			}
+		}
+	}
+	#shopbox{
+		color:#333;
+		width:615px;
+		height:575px;
+		float:right;
+		p{
+			font-size:18px;
+			color:#333;
+			font-weight:bold;
+			line-height:20px;
+			height:20px;
+
+		}
+		#_box{
+			padding-left:20px;
+		}
+		#color{
+			height:30px;
+			overflow:hidden;
+			li{
+				margin-right:5px;
+				border:1px solid #ccc;
+			}
+			.gaoliang{
+				border:1px solid red;
+			}
+		}
+		#size{
+			height:30px;
+			overflow:hidden;
+			li{
+				display:block;
+				float:left;
+				line-height:30px;
+				height:30px;
+				width:100px;
+				text-align:center;
+				margin-right:5px;
+				border:1px solid #ccc;
+			}
+			.gaoliang{
+				border:1px solid red;
+			}
+		}
+		#jian,#jia{
+			width:25px;
+			height:25px;
+
+		}
+		#num{
+			height:25px;
+			width:45px;
+			text-align:center;
+			border:1px solid #ccc;
+
+		}
+		#join{
+			width:200px;
+			height:34px;
+			ling-height:34px;
+			text-align:center;
+			color:#fff;
+			background-color:red;
+			border:1px solid red;
+			border-radius:3px;
+		}
+	}
+
+
+
+}
+
+#details{
+
+	p{
+		line-height:70px;
+		height:70px;
+	}
+}

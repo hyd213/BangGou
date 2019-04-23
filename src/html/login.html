@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/login.css">
+	<script src="../js/jquery-3.3.1.js"></script>
+	<script src="../js/login.js"></script>
+</head>
+<body>
+	<div id="bigbox">
+		<div id="logo">
+			<img src="../images/logo.png" alt="">
+		</div>
+		<div id="conter">
+			<div id="imgbox">
+				<img src="../images/login.jpg" alt="">
+			</div>
+			<div id="loginbox">
+				<ul id="tab">
+					<li id="zhanghao" class="gaoliang">账户登录</li>
+					<li id="shouji">手机登录</li>
+				</ul>
+			<div id="login1">
+				<div id="input">
+					<div id="denglu1">
+						
+						用户名 :  <input type="text" id="name"><br><b>请输入账户名称</b>
+					</div>
+					<div id="denglu2">
+						
+						手机号 :  <input type="text" id="phone"><br><b>请输入手机号码</b>
+					</div>
+					<br><br>
+					登录密码:<input type="password" id="pwd"><br><b>请输入密码</b><br><br>
+
+					<div id="yanzhengbox">
+						<i>验证码 : </i> <input type="text" id="yanzhengma">
+						<canvas width="120" height="40" id="c1"></canvas><input type="button" id="change" value="换一张">
+						
+					</div>
+					<b>请输入验证码</b>
+					<b>验证码错误</b>
+
+				</div>
+				
+				<br>
+				
+
+
+				<input type="checkbox" id="savename"><span>记住用户名</span>
+				<input type="checkbox" id="auto"><span>自动登录</span><br><br><br>
+				<input type="button" value="登录" id="login">
+				<a href="#" id="_pwd">找回密码?</a><br><br><br>
+				<i id="join">还不是邦购用户?马上加入吧~~~</i><input type="button" value="免费注册>>" id="register">
+			</div>
+
+
+				
+
+			</div>
+		</div>
+		<div id="bottom">
+			<p><span>美特斯邦威集团网站</span>： <a href="#">美特斯邦威</a> | <a href="#">ME&CITY</a> | <a href="#">CH'IN祺</a> | <a href="#">邦购网</a></p>
+
+		</div>
+	</div>
+	
+</body>
+</html>

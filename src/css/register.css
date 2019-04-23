@@ -1,0 +1,208 @@
+#box {
+  min-width: 982px;
+  width: 982px;
+  margin: 0 auto;
+}
+
+#box #op {
+  display: none;
+}
+
+#box #conter .biaoti {
+  width: 100%;
+  border-bottom: 2px solid #6E6E6E;
+}
+
+#box #conter .biaoti span {
+  width: 162px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  background-color: #6E6E6E;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  border: 1px solid #6E6E6E;
+  border-radius: 10px 10px 0 0;
+}
+
+#box #conter #bigbox {
+  border: 1px solid #ccc;
+  width: 982px;
+  height: 370px;
+  margin-top: 10px;
+}
+
+#box #conter .box {
+  width: 700px;
+  padding: 30px;
+}
+
+#box #conter .box h6 {
+  font-size: 16px;
+  line-height: 32px;
+  height: 32px;
+  border-bottom: 1px solid #eee;
+  color: #000;
+}
+
+#box #conter .box .smallbox {
+  margin-top: 35px;
+}
+
+#box #conter .box .tishi {
+  display: block;
+  margin-left: 65px;
+  float: left;
+}
+
+#box #conter .box .tlt {
+  font-size: 16px;
+  line-height: 30px;
+  height: 30px;
+  display: block;
+  float: left;
+}
+
+#box #conter .box #name, #box #conter .box #phone, #box #conter .box #yanzheng {
+  width: 246px;
+  border: 1px solid #ABABAB;
+  margin-left: 10px;
+  height: 30px;
+}
+
+#box #conter .box p {
+  font-size: 12px;
+  line-height: 15px;
+  height: 30px;
+  float: right;
+  width: 300px;
+}
+
+#box #conter .box .phone {
+  margin-left: -16px;
+}
+
+#box #conter .box .tip {
+  line-height: 30px;
+  height: 30px;
+}
+
+#box #conter .box #yanzheng {
+  width: 120px;
+  margin-top: -25px;
+}
+
+#box #conter .box #next {
+  width: 150px;
+  height: 32px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #F11515;
+  margin-top: 35px;
+  margin-left: 65px;
+  border: 1px solid #F11515;
+  border-radius: 5px;
+}
+
+#box #conter .box canvas {
+  border: 1px solid greenyellow;
+  height: 30px;
+}
+
+#box #conter .box #change {
+  background-color: #fff;
+  margin-top: -25px;
+}
+
+#box #conter .box #welcome {
+  padding-top: 20px;
+}
+
+#box #conter #bigbox1 {
+  border: 1px solid #ccc;
+  width: 982px;
+  height: 440px;
+  margin-top: 10px;
+  display: none;
+}
+
+#box #conter .box {
+  width: 700px;
+  padding: 30px;
+}
+
+#box #conter .box h6 {
+  font-size: 16px;
+  line-height: 32px;
+  height: 32px;
+  border-bottom: 1px solid #eee;
+  color: #000;
+}
+
+#box #conter .box .smallbox {
+  margin-top: 35px;
+}
+
+#box #conter .box .tishi {
+  display: block;
+  margin-left: 65px;
+  float: left;
+}
+
+#box #conter .box .tlt {
+  font-size: 16px;
+  line-height: 30px;
+  height: 30px;
+  display: block;
+  float: left;
+}
+
+#box #conter .box #_name, #box #conter .box #_phone, #box #conter .box #pwd, #box #conter .box #cpwd {
+  width: 246px;
+  border: 1px solid #ABABAB;
+  margin-left: 10px;
+  height: 30px;
+}
+
+#box #conter .box p {
+  font-size: 12px;
+  line-height: 15px;
+  height: 30px;
+  float: right;
+  width: 300px;
+}
+
+#box #conter .box .phone, #box #conter .box .pwd, #box #conter .box .cpwd {
+  margin-left: -16px;
+}
+
+#box #conter .box .tip {
+  line-height: 30px;
+  height: 30px;
+}
+
+#box #conter .box #register {
+  width: 150px;
+  height: 32px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #F11515;
+  margin-top: 35px;
+  margin-left: 65px;
+  border: 1px solid #F11515;
+  border-radius: 5px;
+}
+
+#box #conter .box #welcome {
+  padding-top: 20px;
+}
+
+#box #bottom p {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#box #bottom p a {
+  color: #666;
+}

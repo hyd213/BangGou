@@ -1,0 +1,198 @@
+#box{
+	min-width:982px;
+	width:982px;
+	margin:0 auto;
+	#op{
+		display:none;
+	}
+	#conter{
+		.biaoti{
+			width:100%;
+			border-bottom:2px solid #6E6E6E;
+			span{
+				width:162px;
+				height:30px;
+				line-height:30px;
+				color:#fff;
+				background-color:#6E6E6E;
+				text-align:center;
+				display:block;
+				font-weight:bold;
+				border:1px solid #6E6E6E;
+				border-radius:10px 10px 0 0;
+			}
+		}
+		#bigbox{
+			border:1px solid #ccc;
+			width:982px;
+			height:370px;
+			margin-top:10px;
+		}
+		.box{
+			width:700px;
+			
+			padding:30px;
+			
+			h6{
+				font-size:16px;
+				line-height:32px;
+				height:32px;
+				border-bottom:1px solid #eee;
+				color:#000;
+			}
+			.smallbox{
+				margin-top:35px;
+			}
+			.tishi{
+				display:block;
+				margin-left:65px;
+				float:left;
+			}
+			.tlt{
+				font-size: 16px;
+				line-height: 30px;
+				height: 30px;
+				display: block;
+				float: left;
+			}
+			#name,#phone,#yanzheng{
+				width:246px;
+				border:1px solid #ABABAB;
+				margin-left: 10px;
+				height:30px;
+
+			}
+			p{
+				font-size:12px;
+				line-height:15px;
+				height:30px;
+				float:right;
+				width:300px;
+			}
+			.phone{
+				margin-left:-16px;
+			}
+			.tip{
+				line-height:30px;
+				height:30px;
+
+			}
+			#yanzheng{
+				width:120px;
+				margin-top:-25px;
+			}
+			#next{
+				width:150px;
+				height:32px;
+				font-size:16px;
+				color:#fff;
+				background-color:#F11515;
+				margin-top:35px;
+				margin-left:65px;
+				border:1px solid #F11515;
+				border-radius:5px;
+
+			}
+			canvas{
+				border:1px solid greenyellow;
+				height:30px;
+				}
+			#change{
+				background-color:#fff;
+				margin-top:-25px;	
+			}
+			#welcome{
+				padding-top:20px;
+			}
+		}
+
+
+		#bigbox1{
+			border:1px solid #ccc;
+			width:982px;
+			height:440px;
+			margin-top:10px;
+			display:none;
+			
+		}
+		.box{
+			width:700px;
+			
+			padding:30px;
+			
+			h6{
+				font-size:16px;
+				line-height:32px;
+				height:32px;
+				border-bottom:1px solid #eee;
+				color:#000;
+			}
+			.smallbox{
+				margin-top:35px;
+			}
+			.tishi{
+				display:block;
+				margin-left:65px;
+				float:left;
+			}
+			.tlt{
+				font-size: 16px;
+				line-height: 30px;
+				height: 30px;
+				display: block;
+				float: left;
+			}
+			#_name,#_phone,#pwd,#cpwd{
+				width:246px;
+				border:1px solid #ABABAB;
+				margin-left: 10px;
+				height:30px;
+
+			}
+			p{
+				font-size:12px;
+				line-height:15px;
+				height:30px;
+				float:right;
+				width:300px;
+			}
+			.phone,.pwd,.cpwd{
+				margin-left:-16px;
+			}
+			.tip{
+				line-height:30px;
+				height:30px;
+
+			}
+			
+			#register{
+				width:150px;
+				height:32px;
+				font-size:16px;
+				color:#fff;
+				background-color:#F11515;
+				margin-top:35px;
+				margin-left:65px;
+				border:1px solid #F11515;
+				border-radius:5px;
+
+			}
+			
+			
+			#welcome{
+				padding-top:20px;
+			}
+		}
+
+	}
+	#bottom{
+		p{
+			text-align:center;
+			margin-top:30px;
+			a{
+				color:#666;
+
+			}
+		}
+	}
+}

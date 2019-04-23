@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/register.css">
+	<script src="../js/jquery-3.3.1.js"></script>
+	<script src="../js/register.js"></script>
+</head>
+<body>
+	<div id="box">
+		<div id="top">
+			<div id="logo">
+				<img src="../images/logo.png" alt="">
+			</div>
+		</div>
+		<div id="conter">
+			<p class="biaoti">
+				<span>手机注册</span>
+			</p>
+			<div id="bigbox">
+			<div class="box fl">
+				<h6>第一步:填写手机账户信息(以下内容为必填)</h6>
+				<div class="smallbox">
+					<span class="tlt">用户名:</span><input type="text" id="name"><p>4-20个字符，英文开头，不能为空，推荐使用中文会员<br>名字。一旦注册成功会员名将不能修改。</p>
+				</div>
+				<span class="tishi">
+		
+				</span>
+				<div class="smallbox">
+					<span class="tlt phone">手机号码:</span><input type="text" id="phone"><p class="tip">请输入您的手机号码</p>
+				</div>
+				<span class="tishi">
+					
+				</span>
+				
+				<div class="smallbox">
+					<span class="tlt">验证码:</span>	<input type="text" id="yanzheng">
+					<canvas width="120" height="40" id="c1"></canvas>
+					<input type="button" id="change" value="换一张">
+				</div>	
+				<span class="tishi">
+					
+				</span>
+				<br>
+				<input type="button" value="下一步" id="next">
+			</div>
+			<div class="welcome fr">
+				<img src="../images/register.png" alt="">
+			</div>
+			</div>
+
+
+
+
+			<div id="bigbox1">
+			<div class="box fl">
+				<h6>第二步:填写密码(以下内容为必填)</h6>
+				<div class="smallbox">
+					<span class="tlt">用户名:</span><input type="text" id="_name">
+				</div>
+				
+		
+				</span>
+				<div class="smallbox">
+					<span class="tlt phone">手机号码:</span><input type="text" id="_phone">
+				</div>
+				
+					
+				</span>
+				
+				<div class="smallbox">
+					<span class="tlt pwd">登录密码:</span>	<input type="password" id="pwd"><p class="tip">6-16个字符，不能使用空格。</p>
+					
+					
+				</div>	
+				<span class="tishi"></span>
+				<div class="smallbox">
+					<span class="tlt cpwd">确认密码:</span>	<input type="password" id="cpwd"><p class="tip">请再次输入登录密码。</p>
+					
+					
+				</div>	
+				<span class="tishi">
+					
+				</span>
+				<br>
+				<input type="button" value="注册" id="register">
+			</div>
+			<div class="welcome fr">
+				<img src="../images/register.png" alt="">
+			</div>
+			</div>
+		</div>
+		<div id="bottom">
+			<p><span>美特斯邦威集团网站</span>： <a href="#">美特斯邦威</a> | <a href="#">ME&CITY</a> | <a href="#">CH'IN祺</a> | <a href="#">邦购网</a></p>
+
+		</div>
+	</div>
+</body>
+</html>

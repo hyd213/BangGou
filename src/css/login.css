@@ -1,0 +1,175 @@
+#bigbox {
+  min-width: 982px;
+  width: 982px;
+  margin: 0 auto;
+}
+
+#bigbox #conter {
+  overflow: hidden;
+}
+
+#bigbox #conter #imgbox {
+  width: 640px;
+  float: left;
+}
+
+#bigbox #conter b {
+  font-size: 12px;
+  color: #999;
+  margin-left: 72px;
+}
+
+#bigbox #conter #input {
+  padding: 0 15px;
+}
+
+#bigbox #conter #tab {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+#bigbox #conter #tab li {
+  float: left;
+  display: block;
+  width: 50%;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  line-height: 36px;
+  height: 36px;
+  text-align: center;
+  color: #666;
+  font-weight: bold;
+}
+
+#bigbox #conter #loginbox {
+  height: 430px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 342px;
+}
+
+#bigbox #conter #loginbox .gaoliang {
+  border-bottom: 0px;
+  border-top: 3px solid red;
+  border-left: 0;
+}
+
+#bigbox #conter #name, #bigbox #conter #pwd, #bigbox #conter #phone {
+  height: 30px;
+  border: 1px solid #ccc;
+  width: 230px;
+}
+
+#bigbox #conter #yanzhengma {
+  height: 30px;
+  border: 1px solid #ccc;
+  width: 60px;
+}
+
+#bigbox #conter canvas {
+  height: 30px;
+  margin-top: 0px;
+}
+
+#bigbox #conter #change {
+  background-color: #fff;
+  height: 30px;
+  line-height: 30px;
+}
+
+#bigbox #conter #yanzhengbox {
+  overflow: hidden;
+  height: 30px;
+}
+
+#bigbox #conter #yanzhengbox i {
+  display: block;
+  float: left;
+}
+
+#bigbox #conter #yanzhengbox canvas {
+  display: block;
+  float: left;
+}
+
+#bigbox #conter #yanzhengbox b {
+  display: block;
+  float: left;
+  line-height: 30px;
+  height: 30px;
+}
+
+#bigbox #conter #yanzhengbox input {
+  display: block;
+  float: left;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+#bigbox #conter #savename {
+  margin-left: 80px;
+}
+
+#bigbox #conter #auto {
+  margin-left: 30px;
+}
+
+#bigbox #conter span {
+  font-size: 12px;
+  color: #333;
+}
+
+#bigbox #conter #login {
+  width: 104px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-left: 78px;
+}
+
+#bigbox #conter #_pwd {
+  font-size: 12px;
+  color: #666;
+  text-decoration: underline;
+}
+
+#bigbox #conter #join {
+  font-size: 12px;
+  color: #333;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+#bigbox #conter #register {
+  width: 95px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+#bigbox #conter #denglu2 {
+  display: none;
+}
+
+#bigbox #conter b {
+  display: none;
+  float: left;
+}
+
+#bottom p {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#bottom p a {
+  color: #666;
+}
